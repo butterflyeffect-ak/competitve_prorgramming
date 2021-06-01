@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+
+
+    //character array in c,c++
+    int n=5;
+    //plus one is creation on size  of the array for the termination of the string
+    char str[n+1];
+    //if intialise this with string 
+    char str[n+1]="hello";
+    //now null is automatically inserted at the end of the arrray
+    //same goes for taking input
+    cin>>str;
+    //then it enter button auotmatically turn into null charater '\0'
+    //only condition it has to be size +1 array
+    return 0;
+}

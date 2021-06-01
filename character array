@@ -14,5 +14,8 @@ int main(){
     cin>>str;
     //then it enter button auotmatically turn into null charater '\0'
     //only condition it has to be size +1 array
+    
+    //for getting to know it len of the string without the null character then we have to use the 
+    strlen(str) funtion to get knoow the exact length of the string
     return 0;
 }

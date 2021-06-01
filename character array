@@ -19,3 +19,9 @@ int main(){
     strlen(str) funtion to get knoow the exact length of the string
     return 0;
 }
+
+why do we need to use string object which is class not any primitive data type;
+because it not static which mean it is not of fixed  size and we  can use any length of the string at the run time
+string s;
+ci>>s;
+as much u give only thing once the compiler understand the enter or backspace enter the string is ended so remember that;
